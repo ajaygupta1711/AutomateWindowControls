@@ -13,7 +13,7 @@ public class HandlingFileUpload {
 		driver.get("https://www.ilovepdf.com/pdf_to_jpg");
 		driver.findElement(By.id("pickfiles")).click();
 		Thread.sleep(5000);
-		Runtime.getRuntime().exec("C:\\Users\\HP\\Downloads\\fileupload.exe");
+		Runtime.getRuntime().exec("E:\\Selenium with Java\\Software Installs_IMP\\fileupload.exe");
 
 	}
 
